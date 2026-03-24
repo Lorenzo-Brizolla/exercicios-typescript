@@ -1,4 +1,6 @@
 function hello() {
-    return null;
+    return "Hello World!";
+    
 }
 module.exports = hello;
+console.log(hello());
