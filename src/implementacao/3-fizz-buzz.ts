@@ -1,9 +1,9 @@
-function fizzBuzz(numero: number) {
+function fizzBuzz(numero: number) : string {
 
-    let div = numero % 3 == 0 ? "Fizz" : numero % 5 == 0 ? "Buzz" : numero % 3 == 0 && numero % 5 == 0 ? "FizzBuzz" : numero.toString();
+    let div:string = numero % 3 == 0 && numero % 5 == 0 ? "FizzBuzz" : numero % 3 == 0 ? "Fizz" : numero % 5 == 0 ? "Buzz" : numero.toString();
     return div;
 }
 
-let a = 15;
+let valor: number = 25;
 
-console.log(fizzBuzz(a));
+console.log(fizzBuzz(valor));

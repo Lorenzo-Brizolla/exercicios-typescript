@@ -1,4 +1,4 @@
-function hello() {
+function hello() : string {
     return "Hello World!";
     
 }
