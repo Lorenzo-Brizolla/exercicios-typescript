@@ -3,4 +3,5 @@ function hello() : string {
     
 }
 module.exports = hello;
+
 console.log(hello());
