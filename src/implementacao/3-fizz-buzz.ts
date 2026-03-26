@@ -1,9 +1,15 @@
 function fizzBuzz(numero: number) : string {
 
-    let div:string = numero % 3 == 0 && numero % 5 == 0 ? "FizzBuzz" : numero % 3 == 0 ? "Fizz" : numero % 5 == 0 ? "Buzz" : numero.toString();
-    return div;
+    if (numero % 3 === 0 && numero % 5 === 0) {
+        return "FizzBuzz";
+    }  else if (numero % 3 === 0) {
+        return "Fizz";
+    } else if (numero % 5 === 0) {
+        return "Buzz";
+    } else {
+        return String(numero);
+    }
 }
+module.exports = fizzBuzz;
 
-let valor: number = 25;
-
-console.log(fizzBuzz(valor));
+console.log(fizzBuzz(15));

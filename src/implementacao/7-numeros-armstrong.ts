@@ -13,9 +13,9 @@ function numerosArmstrong(numero: number) : string {
     }
 
     if (soma == numero) {
-        return `${numero} é um número de Armstrong`
+        return `Este eh um numero de Armstrong!`
     } else {
-        return `${numero} não é um número de Armstrong`
+        return `Este nao eh um numero de Armstrong`
     }
 
 }

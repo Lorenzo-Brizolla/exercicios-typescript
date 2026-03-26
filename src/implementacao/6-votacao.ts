@@ -11,7 +11,7 @@ function apuraVotacao(votos: Array<number>) : string {
             votos3++;
         }
     }
-    let maiorVoto = votos1 > votos2 && votos1 > votos3 ? "Vencedor: 1" : votos2 > votos1 && votos2 > votos3 ? "Vencedor: 2" : votos3 > votos1 && votos3 > votos2 ? "Vencedor 3" : "Empate"
+    let maiorVoto = votos1 > votos2 && votos1 > votos3 ? "Vencedor: 1" : votos2 > votos1 && votos2 > votos3 ? "Vencedor: 2" : votos3 > votos1 && votos3 > votos2 ? "Vencedor: 3" : "Empate"
     return maiorVoto;
 }
 module.exports = apuraVotacao;

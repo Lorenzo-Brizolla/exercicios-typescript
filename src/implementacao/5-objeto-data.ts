@@ -1,12 +1,7 @@
 function criaObjeto(data: string) {
     const [dia, mes, ano] = data.split('/');
 
-    return{
-        dia: Number(dia),
-        mes: Number(mes),
-        ano: Number(ano)
-
-
+    return{dia, mes, ano
     }
     
 }
